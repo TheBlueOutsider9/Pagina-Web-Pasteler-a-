@@ -1,0 +1,322 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tortas - Tentaciones Lore</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+    <!-- Navegación -->
+    <nav>
+        <div class="menu-hamburguesa" id="btn-hamburguesa">&#9776;</div>
+        <div class="logo">
+            <a href="index.html"><img src="img/TL_logo_pagina.png" alt="Tentaciones Lore"></a>
+        </div>
+        <ul class="enlaces">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="pasteles.html">Tortas</a></li>
+            <li><a href="premium.html">Tortas Premium</a></li>
+            <li><a href="dulces.html">Variedades Dulces</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+        <div class="iconos-nav">
+            <span id="abrir-buscador">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+            </span>
+            <span id="btn-carrito" style="cursor: pointer; display: flex; align-items: center; gap: 5px;">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+            </span>
+            <a href="pasteles.html" class="btn-comprar">Comprar Ahora</a>
+        </div>
+    </nav>
+
+    <div style="text-align: center; padding: 60px 20px 20px;">
+        <h1 style="font-weight: 300; font-size: 2.5rem; margin: 0; text-transform: uppercase; letter-spacing: 2px;">Tortas</h1>
+        <p style="max-width: 600px; margin: 15px auto 0; font-size: 1.1rem; color: var(--texto); opacity: 0.8;">Explora nuestro catálogo de tortas clásicas. Recetas infalibles, preparadas con dedicación y ese toque casero inconfundible.</p>
+    </div>
+
+    <!-- Colección -->
+    <section class="Sección-catálogo">
+        <div class="catálogo" style="max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 30px; padding: 20px;">
+            <div class="pastel-card" style="display:flex; flex-direction:column; justify-content:space-between; height: 100%; border: 1px solid #eee; border-radius: 8px; overflow: hidden; background: #fff; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
+                <a href="productos/producto_manjarnuez.html" style="text-decoration: none; color: inherit; display:flex; flex-direction:column; height: 100%;">
+                    <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&q=80" alt="Manjar Nuez" style="object-fit:cover; height:200px; width:100%;">
+                    <div style="padding:20px; flex-grow:1; display:flex; flex-direction:column; text-align: center;">
+                        <h3 style="margin-bottom:10px; font-size: 1.2em; font-weight: 500;">Manjar Nuez</h3>
+                        <p style="font-weight:bold; margin-top:auto; font-size:1.1em; color: var(--acento);">$25.000</p>
+                        <span class="btn-oscuro" style="margin-top:15px; width: 100%; display:block; box-sizing:border-box;">Ver Detalles</span>
+                    </div>
+                </a>
+            </div>
+            <div class="pastel-card" style="display:flex; flex-direction:column; justify-content:space-between; height: 100%; border: 1px solid #eee; border-radius: 8px; overflow: hidden; background: #fff; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
+                <a href="productos/producto_manjarpia.html" style="text-decoration: none; color: inherit; display:flex; flex-direction:column; height: 100%;">
+                    <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&q=80" alt="Manjar Piña" style="object-fit:cover; height:200px; width:100%;">
+                    <div style="padding:20px; flex-grow:1; display:flex; flex-direction:column; text-align: center;">
+                        <h3 style="margin-bottom:10px; font-size: 1.2em; font-weight: 500;">Manjar Piña</h3>
+                        <p style="font-weight:bold; margin-top:auto; font-size:1.1em; color: var(--acento);">$25.000</p>
+                        <span class="btn-oscuro" style="margin-top:15px; width: 100%; display:block; box-sizing:border-box;">Ver Detalles</span>
+                    </div>
+                </a>
+            </div>
+            <div class="pastel-card" style="display:flex; flex-direction:column; justify-content:space-between; height: 100%; border: 1px solid #eee; border-radius: 8px; overflow: hidden; background: #fff; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
+                <a href="productos/producto_francisca.html" style="text-decoration: none; color: inherit; display:flex; flex-direction:column; height: 100%;">
+                    <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&q=80" alt="Francisca" style="object-fit:cover; height:200px; width:100%;">
+                    <div style="padding:20px; flex-grow:1; display:flex; flex-direction:column; text-align: center;">
+                        <h3 style="margin-bottom:10px; font-size: 1.2em; font-weight: 500;">Francisca</h3>
+                        <p style="font-weight:bold; margin-top:auto; font-size:1.1em; color: var(--acento);">$25.000</p>
+                        <span class="btn-oscuro" style="margin-top:15px; width: 100%; display:block; box-sizing:border-box;">Ver Detalles</span>
+                    </div>
+                </a>
+            </div>
+            <div class="pastel-card" style="display:flex; flex-direction:column; justify-content:space-between; height: 100%; border: 1px solid #eee; border-radius: 8px; overflow: hidden; background: #fff; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
+                <a href="productos/producto_tortamixta.html" style="text-decoration: none; color: inherit; display:flex; flex-direction:column; height: 100%;">
+                    <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&q=80" alt="Torta Mixta" style="object-fit:cover; height:200px; width:100%;">
+                    <div style="padding:20px; flex-grow:1; display:flex; flex-direction:column; text-align: center;">
+                        <h3 style="margin-bottom:10px; font-size: 1.2em; font-weight: 500;">Torta Mixta</h3>
+                        <p style="font-weight:bold; margin-top:auto; font-size:1.1em; color: var(--acento);">$25.000</p>
+                        <span class="btn-oscuro" style="margin-top:15px; width: 100%; display:block; box-sizing:border-box;">Ver Detalles</span>
+                    </div>
+                </a>
+            </div>
+            <div class="pastel-card" style="display:flex; flex-direction:column; justify-content:space-between; height: 100%; border: 1px solid #eee; border-radius: 8px; overflow: hidden; background: #fff; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
+                <a href="productos/producto_chocolate.html" style="text-decoration: none; color: inherit; display:flex; flex-direction:column; height: 100%;">
+                    <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&q=80" alt="Chocolate" style="object-fit:cover; height:200px; width:100%;">
+                    <div style="padding:20px; flex-grow:1; display:flex; flex-direction:column; text-align: center;">
+                        <h3 style="margin-bottom:10px; font-size: 1.2em; font-weight: 500;">Chocolate</h3>
+                        <p style="font-weight:bold; margin-top:auto; font-size:1.1em; color: var(--acento);">$25.000</p>
+                        <span class="btn-oscuro" style="margin-top:15px; width: 100%; display:block; box-sizing:border-box;">Ver Detalles</span>
+                    </div>
+                </a>
+            </div>
+            <div class="pastel-card" style="display:flex; flex-direction:column; justify-content:space-between; height: 100%; border: 1px solid #eee; border-radius: 8px; overflow: hidden; background: #fff; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
+                <a href="productos/producto_tortademanjarate.html" style="text-decoration: none; color: inherit; display:flex; flex-direction:column; height: 100%;">
+                    <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&q=80" alt="Torta de Manjarate" style="object-fit:cover; height:200px; width:100%;">
+                    <div style="padding:20px; flex-grow:1; display:flex; flex-direction:column; text-align: center;">
+                        <h3 style="margin-bottom:10px; font-size: 1.2em; font-weight: 500;">Torta de Manjarate</h3>
+                        <p style="font-weight:bold; margin-top:auto; font-size:1.1em; color: var(--acento);">$25.000</p>
+                        <span class="btn-oscuro" style="margin-top:15px; width: 100%; display:block; box-sizing:border-box;">Ver Detalles</span>
+                    </div>
+                </a>
+            </div>
+            <div class="pastel-card" style="display:flex; flex-direction:column; justify-content:space-between; height: 100%; border: 1px solid #eee; border-radius: 8px; overflow: hidden; background: #fff; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
+                <a href="productos/producto_turrndenuez.html" style="text-decoration: none; color: inherit; display:flex; flex-direction:column; height: 100%;">
+                    <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&q=80" alt="Turrón De Nuez" style="object-fit:cover; height:200px; width:100%;">
+                    <div style="padding:20px; flex-grow:1; display:flex; flex-direction:column; text-align: center;">
+                        <h3 style="margin-bottom:10px; font-size: 1.2em; font-weight: 500;">Turrón De Nuez</h3>
+                        <p style="font-weight:bold; margin-top:auto; font-size:1.1em; color: var(--acento);">$25.000</p>
+                        <span class="btn-oscuro" style="margin-top:15px; width: 100%; display:block; box-sizing:border-box;">Ver Detalles</span>
+                    </div>
+                </a>
+            </div>
+            <div class="pastel-card" style="display:flex; flex-direction:column; justify-content:space-between; height: 100%; border: 1px solid #eee; border-radius: 8px; overflow: hidden; background: #fff; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
+                <a href="productos/producto_tortaoreo.html" style="text-decoration: none; color: inherit; display:flex; flex-direction:column; height: 100%;">
+                    <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&q=80" alt="Torta Oreo" style="object-fit:cover; height:200px; width:100%;">
+                    <div style="padding:20px; flex-grow:1; display:flex; flex-direction:column; text-align: center;">
+                        <h3 style="margin-bottom:10px; font-size: 1.2em; font-weight: 500;">Torta Oreo</h3>
+                        <p style="font-weight:bold; margin-top:auto; font-size:1.1em; color: var(--acento);">$25.000</p>
+                        <span class="btn-oscuro" style="margin-top:15px; width: 100%; display:block; box-sizing:border-box;">Ver Detalles</span>
+                    </div>
+                </a>
+            </div>
+            <div class="pastel-card" style="display:flex; flex-direction:column; justify-content:space-between; height: 100%; border: 1px solid #eee; border-radius: 8px; overflow: hidden; background: #fff; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
+                <a href="productos/producto_tresleches.html" style="text-decoration: none; color: inherit; display:flex; flex-direction:column; height: 100%;">
+                    <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&q=80" alt="Tres leches" style="object-fit:cover; height:200px; width:100%;">
+                    <div style="padding:20px; flex-grow:1; display:flex; flex-direction:column; text-align: center;">
+                        <h3 style="margin-bottom:10px; font-size: 1.2em; font-weight: 500;">Tres leches</h3>
+                        <p style="font-weight:bold; margin-top:auto; font-size:1.1em; color: var(--acento);">$25.000</p>
+                        <span class="btn-oscuro" style="margin-top:15px; width: 100%; display:block; box-sizing:border-box;">Ver Detalles</span>
+                    </div>
+                </a>
+            </div>
+            <div class="pastel-card" style="display:flex; flex-direction:column; justify-content:space-between; height: 100%; border: 1px solid #eee; border-radius: 8px; overflow: hidden; background: #fff; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
+                <a href="productos/producto_pompadour.html" style="text-decoration: none; color: inherit; display:flex; flex-direction:column; height: 100%;">
+                    <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&q=80" alt="Pompadour" style="object-fit:cover; height:200px; width:100%;">
+                    <div style="padding:20px; flex-grow:1; display:flex; flex-direction:column; text-align: center;">
+                        <h3 style="margin-bottom:10px; font-size: 1.2em; font-weight: 500;">Pompadour</h3>
+                        <p style="font-weight:bold; margin-top:auto; font-size:1.1em; color: var(--acento);">$25.000</p>
+                        <span class="btn-oscuro" style="margin-top:15px; width: 100%; display:block; box-sizing:border-box;">Ver Detalles</span>
+                    </div>
+                </a>
+            </div>
+            <div class="pastel-card" style="display:flex; flex-direction:column; justify-content:space-between; height: 100%; border: 1px solid #eee; border-radius: 8px; overflow: hidden; background: #fff; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
+                <a href="productos/producto_dulcemargarita.html" style="text-decoration: none; color: inherit; display:flex; flex-direction:column; height: 100%;">
+                    <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&q=80" alt="Dulce Margarita" style="object-fit:cover; height:200px; width:100%;">
+                    <div style="padding:20px; flex-grow:1; display:flex; flex-direction:column; text-align: center;">
+                        <h3 style="margin-bottom:10px; font-size: 1.2em; font-weight: 500;">Dulce Margarita</h3>
+                        <p style="font-weight:bold; margin-top:auto; font-size:1.1em; color: var(--acento);">$25.000</p>
+                        <span class="btn-oscuro" style="margin-top:15px; width: 100%; display:block; box-sizing:border-box;">Ver Detalles</span>
+                    </div>
+                </a>
+            </div>
+            <div class="pastel-card" style="display:flex; flex-direction:column; justify-content:space-between; height: 100%; border: 1px solid #eee; border-radius: 8px; overflow: hidden; background: #fff; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
+                <a href="productos/producto_cuatroleches.html" style="text-decoration: none; color: inherit; display:flex; flex-direction:column; height: 100%;">
+                    <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&q=80" alt="Cuatro leches" style="object-fit:cover; height:200px; width:100%;">
+                    <div style="padding:20px; flex-grow:1; display:flex; flex-direction:column; text-align: center;">
+                        <h3 style="margin-bottom:10px; font-size: 1.2em; font-weight: 500;">Cuatro leches</h3>
+                        <p style="font-weight:bold; margin-top:auto; font-size:1.1em; color: var(--acento);">$25.000</p>
+                        <span class="btn-oscuro" style="margin-top:15px; width: 100%; display:block; box-sizing:border-box;">Ver Detalles</span>
+                    </div>
+                </a>
+            </div>
+            <div class="pastel-card" style="display:flex; flex-direction:column; justify-content:space-between; height: 100%; border: 1px solid #eee; border-radius: 8px; overflow: hidden; background: #fff; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
+                <a href="productos/producto_danesa.html" style="text-decoration: none; color: inherit; display:flex; flex-direction:column; height: 100%;">
+                    <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&q=80" alt="Danesa" style="object-fit:cover; height:200px; width:100%;">
+                    <div style="padding:20px; flex-grow:1; display:flex; flex-direction:column; text-align: center;">
+                        <h3 style="margin-bottom:10px; font-size: 1.2em; font-weight: 500;">Danesa</h3>
+                        <p style="font-weight:bold; margin-top:auto; font-size:1.1em; color: var(--acento);">$25.000</p>
+                        <span class="btn-oscuro" style="margin-top:15px; width: 100%; display:block; box-sizing:border-box;">Ver Detalles</span>
+                    </div>
+                </a>
+            </div>
+            <div class="pastel-card" style="display:flex; flex-direction:column; justify-content:space-between; height: 100%; border: 1px solid #eee; border-radius: 8px; overflow: hidden; background: #fff; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
+                <a href="productos/producto_cielo.html" style="text-decoration: none; color: inherit; display:flex; flex-direction:column; height: 100%;">
+                    <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&q=80" alt="Cielo" style="object-fit:cover; height:200px; width:100%;">
+                    <div style="padding:20px; flex-grow:1; display:flex; flex-direction:column; text-align: center;">
+                        <h3 style="margin-bottom:10px; font-size: 1.2em; font-weight: 500;">Cielo</h3>
+                        <p style="font-weight:bold; margin-top:auto; font-size:1.1em; color: var(--acento);">$25.000</p>
+                        <span class="btn-oscuro" style="margin-top:15px; width: 100%; display:block; box-sizing:border-box;">Ver Detalles</span>
+                    </div>
+                </a>
+            </div>
+            <div class="pastel-card" style="display:flex; flex-direction:column; justify-content:space-between; height: 100%; border: 1px solid #eee; border-radius: 8px; overflow: hidden; background: #fff; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
+                <a href="productos/producto_chifn.html" style="text-decoration: none; color: inherit; display:flex; flex-direction:column; height: 100%;">
+                    <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&q=80" alt="Chifón" style="object-fit:cover; height:200px; width:100%;">
+                    <div style="padding:20px; flex-grow:1; display:flex; flex-direction:column; text-align: center;">
+                        <h3 style="margin-bottom:10px; font-size: 1.2em; font-weight: 500;">Chifón</h3>
+                        <p style="font-weight:bold; margin-top:auto; font-size:1.1em; color: var(--acento);">$25.000</p>
+                        <span class="btn-oscuro" style="margin-top:15px; width: 100%; display:block; box-sizing:border-box;">Ver Detalles</span>
+                    </div>
+                </a>
+            </div>
+            <div class="pastel-card" style="display:flex; flex-direction:column; justify-content:space-between; height: 100%; border: 1px solid #eee; border-radius: 8px; overflow: hidden; background: #fff; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
+                <a href="productos/producto_tortahelada.html" style="text-decoration: none; color: inherit; display:flex; flex-direction:column; height: 100%;">
+                    <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&q=80" alt="Torta helada" style="object-fit:cover; height:200px; width:100%;">
+                    <div style="padding:20px; flex-grow:1; display:flex; flex-direction:column; text-align: center;">
+                        <h3 style="margin-bottom:10px; font-size: 1.2em; font-weight: 500;">Torta helada</h3>
+                        <p style="font-weight:bold; margin-top:auto; font-size:1.1em; color: var(--acento);">$25.000</p>
+                        <span class="btn-oscuro" style="margin-top:15px; width: 100%; display:block; box-sizing:border-box;">Ver Detalles</span>
+                    </div>
+                </a>
+            </div>
+            <div class="pastel-card" style="display:flex; flex-direction:column; justify-content:space-between; height: 100%; border: 1px solid #eee; border-radius: 8px; overflow: hidden; background: #fff; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
+                <a href="productos/producto_papayaalacrema.html" style="text-decoration: none; color: inherit; display:flex; flex-direction:column; height: 100%;">
+                    <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&q=80" alt="Papaya a la crema" style="object-fit:cover; height:200px; width:100%;">
+                    <div style="padding:20px; flex-grow:1; display:flex; flex-direction:column; text-align: center;">
+                        <h3 style="margin-bottom:10px; font-size: 1.2em; font-weight: 500;">Papaya a la crema</h3>
+                        <p style="font-weight:bold; margin-top:auto; font-size:1.1em; color: var(--acento);">$25.000</p>
+                        <span class="btn-oscuro" style="margin-top:15px; width: 100%; display:block; box-sizing:border-box;">Ver Detalles</span>
+                    </div>
+                </a>
+            </div>
+            <div class="pastel-card" style="display:flex; flex-direction:column; justify-content:space-between; height: 100%; border: 1px solid #eee; border-radius: 8px; overflow: hidden; background: #fff; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
+                <a href="productos/producto_tortadedurazno.html" style="text-decoration: none; color: inherit; display:flex; flex-direction:column; height: 100%;">
+                    <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&q=80" alt="Torta de durazno" style="object-fit:cover; height:200px; width:100%;">
+                    <div style="padding:20px; flex-grow:1; display:flex; flex-direction:column; text-align: center;">
+                        <h3 style="margin-bottom:10px; font-size: 1.2em; font-weight: 500;">Torta de durazno</h3>
+                        <p style="font-weight:bold; margin-top:auto; font-size:1.1em; color: var(--acento);">$25.000</p>
+                        <span class="btn-oscuro" style="margin-top:15px; width: 100%; display:block; box-sizing:border-box;">Ver Detalles</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Botón Flotante WhatsApp -->
+    <a href="https://wa.me/56986235441?text=Hola,%20me%20gustaría%20hacer%20un%20pedido%20de%20Tentaciones%20Lore" class="whatsapp-float" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/>
+        </svg>
+    </a>
+
+    <!-- Footer Simple -->
+    <footer>
+        <div class="footer-columnas">
+            <div class="footer-col">
+                <h4 style="font-weight:600;">Tentaciones LORE</h4>
+                <p>Arte minimalista y sabor excepcional.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Navegación</h4>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="pasteles.html">Tortas</a></li>
+                    <li><a href="premium.html">Tortas Premium</a></li>
+                    <li><a href="dulces.html">Variedades Dulces</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Legales</h4>
+                <ul>
+                    <li><a href="#">Términos y Condiciones</a></li>
+                    <li><a href="#">Privacidad</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2026 Tentaciones Lore. Todos los derechos reservados.
+        </div>
+    </footer>
+
+    <script src="js/buscador.js"></script>
+    <script src="js/carrito.js?v=3"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const btnHam = document.getElementById("btn-hamburguesa");
+            const enlaces = document.querySelector(".enlaces");
+            if (btnHam && enlaces) {
+                btnHam.addEventListener("click", function() {
+                    enlaces.classList.toggle("abierto");
+                });
+            }
+        });
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
